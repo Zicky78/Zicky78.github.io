@@ -79,6 +79,56 @@ const music = [
 		id: '16',
 		link: '../assets/music/misc/victory.mp3',
 	},
+	{
+		title: `Renalla`,
+		id: '17',
+		link: '../assets/games/Elden/renalla.mp3',
+	},
+	{
+		title: `Godskin Apostles`,
+		id: '18',
+		link: '../assets/games/Elden/apostle.mp3',
+	},
+	{
+		title: `Good Riddance`,
+		id: '19',
+		link: '../assets/games/Hades/riddance.mp3',
+	},
+	{
+		title: `Orpheus' Lament`,
+		id: '20',
+		link: '../assets/games/Hades/orpheus.mp3',
+	},
+	{
+		title: `Nay`,
+		id: '21',
+		link: '../assets/games/MHW/honour.mp3',
+	},
+	{
+		title: `Tales`,
+		id: '22',
+		link: '../assets/games/MHW/tales.mp3',
+	},
+	{
+		title: `Supermoon`,
+		id: '23',
+		link: '../assets/games/NMS/supermoon.mp3',
+	},
+	{
+		title: `Red Parallax`,
+		id: '24',
+		link: '../assets/games/NMS/red.mp3',
+	},
+	{
+		title: `Lift`,
+		id: '25',
+		link: '../assets/games/Warframe/lift.mp3',
+	},
+	{
+		title: `This Is What You Are`,
+		id: '26',
+		link: '../assets/games/Warframe/thisis.mp3',
+	},
 ];
 
 const btns = document.querySelectorAll('.play-btn');
@@ -88,12 +138,12 @@ btns.forEach(function (btn) {
 	btn.addEventListener('click', function (e) {
 		console.log(e.target.id);
 		// const audio = new Audio(getLink(e.target.id));
-        if(!audio.paused) {
-            audio.pause();
-        } else {
-            audio.src = getLink(e.target.id);
-            audio.play();
-        }    
+		if (!audio.paused) {
+			audio.pause();
+		} else {
+			audio.src = getLink(e.target.id);
+			audio.play();
+		}
 	});
 });
 

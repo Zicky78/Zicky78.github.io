@@ -8,8 +8,11 @@
 	border: none;
 }
 
-
-
 .play-icon {
 	margin-right: 1rem;
+}
+
+.home-img {
+	height: 200px;
+	width: 200px;
 }
