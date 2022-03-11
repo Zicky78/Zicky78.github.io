@@ -1,3 +1,15 @@
 .dropdown-item:hover {
-    background-color: #99FF66;
+	background-color: #99ff66;
+}
+
+.play-btn {
+	background-color: transparent;
+	color: white;
+	border: none;
+}
+
+
+
+.play-icon {
+	margin-right: 1rem;
 }
